@@ -1,0 +1,12 @@
+.divglob {
+    width: 100vw;
+}
+
+.section {
+    width: 100%;
+    position: relative;
+    background-image: url(./assets/frogcoin.jpg);
+    background-size: cover;
+    height: 80rem;
+}
+

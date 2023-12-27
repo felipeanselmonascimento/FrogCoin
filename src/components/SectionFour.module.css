@@ -1,0 +1,28 @@
+.divina {
+    background-color: white;
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.roadmapi {
+    height: 120px;
+    margin-bottom: 100px;
+}
+
+.um {
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.dois {
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.tres {
+    height: 300px;
+    margin-bottom: 50px;
+}

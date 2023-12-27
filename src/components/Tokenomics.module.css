@@ -1,0 +1,17 @@
+.div {
+    padding-top: 50px;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.toke {
+    height: 100px;
+}
+
+.quadro {
+    height: 500px;
+}

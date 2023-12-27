@@ -1,0 +1,22 @@
+.div {
+    background-color: var(--green-300);
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div img{
+    width: 100px;
+    height: 100px;
+}
+
+.coingecko {
+    /* background-color: aqua; */
+    width: 200px;
+    height: 100px;
+}
+
+.coingecko img {
+    width: 100%;
+}
