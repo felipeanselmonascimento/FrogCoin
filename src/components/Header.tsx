@@ -11,23 +11,20 @@ import { HashLink as Link } from 'react-router-hash-link'
 
 export function Header() {
 
-        const handleClick = () => {
-          window.location.reload();
-        };
-
+  
     return (
         <BrowserRouter>
         <header className={styles.header}>
             <img className={styles.logo} src={Logo} alt="papel parede"></img>
             <div className={styles.icones1}>
                 <Link to="#main"> 
-                    <img onClick={handleClick} src={About} alt="About" />
+                    <img src={About} alt="About" />
                 </Link>
                 <Link to="#toke"> 
-                    <img onClick={handleClick} src={Tokenomics} alt="Tokenomics" />
+                    <img src={Tokenomics} alt="Tokenomics" />
                 </Link>
                 <Link to="#secfour"> 
-                    <img onClick={handleClick} src={Roadmap} alt="Roadmap" />
+                    <img src={Roadmap} alt="Roadmap" />
                 </Link>
                 <a href="https://poocoin.app">
                     <img src={Chart} alt="Chart" />
