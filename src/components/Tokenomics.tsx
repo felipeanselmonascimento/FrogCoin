@@ -11,7 +11,7 @@ export function Tokenomics() {
     }, [])
 
     return (
-        <div className={styles.div}>
+        <div id='toke' className={styles.div}>
                 <img src={tokenomicsamare}
                 className={styles.toke}
                 alt="toke amarelo"

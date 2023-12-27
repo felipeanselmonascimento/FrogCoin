@@ -15,7 +15,7 @@ export function SectionFour() {
 
 
     return (
-        <div className={styles.divina}>
+        <div id='secfour' className={styles.divina}>
             <img src={roadmap}
             className={styles.roadmapi}
             alt="roadmap"

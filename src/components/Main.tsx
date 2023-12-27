@@ -5,7 +5,6 @@ import AOS from 'aos'
 import { useEffect } from 'react'
 import 'aos/dist/aos.css'
 
-
 export function Main() {
 
     useEffect(() => {
@@ -24,7 +23,7 @@ export function Main() {
             alt="contando a moeda"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"/>
-            <div className={styles.divimg}>
+            <div id='main' className={styles.divimg}>
                 <h1>Ready to</h1>
                 <h1>make history</h1>
                 <h1>with FrogCoin ?</h1>

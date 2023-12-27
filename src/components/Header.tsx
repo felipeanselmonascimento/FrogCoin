@@ -6,40 +6,32 @@ import Roadmap from '../assets/roadmap.png'
 import Chart from '../assets/chart.png'
 import Xis from '../assets/logo X.png'
 import Telegram from '../assets/telegram.png'
+import { BrowserRouter } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 
 export function Header() {
 
-    const handleClick = () => {
-        window.scrollTo({
-            top: 1280,
-            behavior: 'smooth', // Adiciona uma animação de rolagem suave
-        });
-        window.location.reload();
-    }
-
-    const handleClick2 = () => {
-        window.scrollTo({
-            top: 1800,
-            behavior: 'smooth',
-        });
-        window.location.reload();
-    }
-
-    const handleClick3 = () => {
-        window.scrollTo({
-            top: 2600,
-            behavior: 'smooth',
-        });
-        window.location.reload();
-    }
+        const handleClick = () => {
+          // Realiza as operações desejadas aqui
+      
+          // Recarrega a página
+          window.location.reload();
+        };
 
     return (
+        <BrowserRouter>
         <header className={styles.header}>
             <img className={styles.logo} src={Logo} alt="papel parede"></img>
             <div className={styles.icones1}>
-                <img src={About} onClick={handleClick} alt="About" />
-                <img src={Tokenomics} onClick={handleClick2} alt="Tokenomics" />
-                <img src={Roadmap} onClick={handleClick3} alt="Roadmap" />
+                <Link to="#main"> 
+                    <img onClick={handleClick} src={About} alt="About" />
+                </Link>
+                <Link to="#toke"> 
+                    <img src={Tokenomics} alt="Tokenomics" />
+                </Link>
+                <Link to="#secfour"> 
+                    <img src={Roadmap} alt="Roadmap" />
+                </Link>
                 <a href="https://poocoin.app">
                     <img src={Chart} alt="Chart" />
                 </a>
@@ -53,5 +45,6 @@ export function Header() {
                 </a>
             </div>
         </header>
+        </BrowserRouter>
     )
 }
