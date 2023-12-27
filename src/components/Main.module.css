@@ -43,11 +43,50 @@
 }
 
 @media (max-width: 768px) {
+    .main {
+        position: relative;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 500px;
+    }
 
     
     .main img {
-        height: 100px;
-        width: 100px;
+        height: 300px;
+        width: 300px;
+    }
+
+    .divimg {
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        position: absolute;
+        top: 0;
+    }
+    
+    .divimg h1 {
+        font-family: 'Sedgwick Ave Display', cursive;
+        padding-top: 1rem;
+        font-size: 3rem;
+        color: black;
+    }
+    .para {
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .para p{
+        font-family: 'Sedgwick Ave Display', cursive;
+        font-size: 2rem;
+        color: black
     }
 
 }

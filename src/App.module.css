@@ -1,5 +1,5 @@
 .divglob {
-    width: 100%;
+    width: 100vw;
 }
 
 .section {
@@ -16,8 +16,9 @@
     .section {
         width: 100%;
         position: relative;
-        /* background-color: white; */
         background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         height: 80rem;
     }
 }
