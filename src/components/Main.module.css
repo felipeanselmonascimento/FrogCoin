@@ -42,3 +42,14 @@
     color: black
 }
 
+@media (max-width: 768px) {
+
+    
+    .main img {
+        height: 100px;
+        width: 100px;
+    }
+
+}
+
+

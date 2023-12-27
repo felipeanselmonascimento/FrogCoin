@@ -1,5 +1,5 @@
 .divglob {
-    width: 100vw;
+    width: 100%;
 }
 
 .section {
@@ -10,3 +10,14 @@
     height: 80rem;
 }
 
+
+@media (max-width: 768px) {
+
+    .section {
+        width: 100%;
+        position: relative;
+        /* background-color: white; */
+        background-size: cover;
+        height: 80rem;
+    }
+}

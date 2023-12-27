@@ -38,3 +38,11 @@ body, input, textarea, button {
     font-weight: 400;
     font-size: 1rem;
 }
+
+
+@media (max-width: 768px) {
+
+    body, html {
+        width: 100%;
+    }
+}

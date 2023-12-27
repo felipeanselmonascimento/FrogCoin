@@ -15,3 +15,15 @@
 .quadro {
     height: 500px;
 }
+
+@media (max-width: 768px) {
+
+    
+    .toke {
+        height: 30px; 
+    }
+
+    .quadro {
+        height: 100px;
+    }
+}
