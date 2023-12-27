@@ -12,9 +12,6 @@ import { HashLink as Link } from 'react-router-hash-link'
 export function Header() {
 
         const handleClick = () => {
-          // Realiza as operações desejadas aqui
-      
-          // Recarrega a página
           window.location.reload();
         };
 
