@@ -27,10 +27,10 @@ export function Header() {
                     <img onClick={handleClick} src={About} alt="About" />
                 </Link>
                 <Link to="#toke"> 
-                    <img src={Tokenomics} alt="Tokenomics" />
+                    <img onClick={handleClick} src={Tokenomics} alt="Tokenomics" />
                 </Link>
                 <Link to="#secfour"> 
-                    <img src={Roadmap} alt="Roadmap" />
+                    <img onClick={handleClick} src={Roadmap} alt="Roadmap" />
                 </Link>
                 <a href="https://poocoin.app">
                     <img src={Chart} alt="Chart" />
