@@ -45,7 +45,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
     .header {
         position: absolute;
         width: 100%;
