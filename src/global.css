@@ -40,6 +40,15 @@ body, input, textarea, button {
     font-size: 1rem;
 }
 
+@media (max-width: 440px) {
+
+    body, html {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+}
 
 @media (max-width: 400px) {
 

@@ -16,6 +16,28 @@
     height: 500px;
 }
 
+@media (max-width: 440px) {
+
+    .div {
+        padding-top: 50px;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    
+    .toke {
+        height: 50px; 
+    }
+
+    .quadro {
+        height: 170px;
+    }
+}
+
 @media (max-width: 400px) {
 
     .div {

@@ -10,6 +10,17 @@
     height: 80rem;
 }
 
+@media (max-width: 440px) {
+
+    .section {
+        width: 100%;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 80rem;
+    }
+}
 
 @media (max-width: 400px) {
 
