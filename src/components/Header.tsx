@@ -26,7 +26,7 @@ export function Header() {
                 <Link to="#secfour"> 
                     <img src={Roadmap} alt="Roadmap" />
                 </Link>
-                <a href="https://poocoin.app">
+                <a href="https://poocoin.app/tokens/0x382858669230d0c0c7a556f913218a567a1cf8f6">
                     <img src={Chart} alt="Chart" />
                 </a>
             </div>
