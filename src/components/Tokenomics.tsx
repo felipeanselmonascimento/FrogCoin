@@ -1,6 +1,6 @@
 import styles from './Tokenomics.module.css'
 import tokenomicsamare from '../assets/tokenomics amarelo.png'
-import tokeverd from '../assets/tokenomics verde.svg'
+import tokeverd from '../assets/novo tokenomics.svg'
 import AOS from 'aos'
 import { useEffect } from 'react'
 import 'aos/dist/aos.css'
