@@ -34,7 +34,7 @@ export function Header() {
                 <a href="https://twitter.com">
                     <img src={Xis} alt="icone tw" />
                 </a>
-                <a href="https://t.me/FroggCoinBSC">
+                <a href="https://t.me/FrogCoinBSCC">
                     <img src={Telegram} alt="icone telegram" />
                 </a>
             </div>
