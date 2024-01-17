@@ -8,15 +8,24 @@ import Xis from '../assets/logo X.png'
 import Telegram from '../assets/telegram.png'
 import { BrowserRouter } from 'react-router-dom'
 import { HashLink as Link } from 'react-router-hash-link'
+import { useState } from 'react'
+import { Article } from 'phosphor-react'
 
 export function Header() {
 
+    const [expanded, setExpanded] = useState(false);
+
+    const toggleNavbar = () => {
+      setExpanded(!expanded);
+    };
+  
   
     return (
         <BrowserRouter>
-        <header className={styles.header}>
-            <img className={styles.logo} src={Logo} alt="papel parede"></img>
-            <div className={styles.icones1}>
+        <header className={expanded ? styles.nav : styles.header}>
+            <img className={expanded ? styles.logo1 : styles.logo} src={Logo} alt="papel parede" />
+            <Article className={expanded ? styles.article1 : styles.article} size={32} onClick={toggleNavbar} />
+            <div className={expanded ? styles.iconesres : styles.icones1}>
                 <Link to="#main"> 
                     <img src={About} alt="About" />
                 </Link>
@@ -30,11 +39,11 @@ export function Header() {
                     <img src={Chart} alt="Chart" />
                 </a>
             </div>
-            <div className={styles.icones2}>
+            <div className={expanded ? styles.iconesres2 : styles.icones2}>
                 <a href="https://twitter.com">
                     <img src={Xis} alt="icone tw" />
                 </a>
-                <a href="">
+                <a href="https://t.me/MinionGrok">
                     <img src={Telegram} alt="icone telegram" />
                 </a>
             </div>

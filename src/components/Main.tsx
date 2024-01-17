@@ -31,13 +31,13 @@ export function Main() {
                 <img src={going}
                 data-aos="fade-left"
                 alt="contando a moeda"
-                data-aos-offset="500"
+                data-aos-offset="300"
                 data-aos-easing="ease-in-sine" />
                 <div className={styles.para}>
-                    <p>Where crypto meets Minion mayhem</p>
+                    <p>Nothing, it's just when crypto meets Minion mayhem</p>
                     <p>Hilarious NFTs, and themed events awaits.</p>
                     <p>Join the yellow revolution</p>
-                    <p>where every $MNC is a smile! 😄🚀</p>
+                    <p>where every $MNG is a smile! 😄🚀</p>
                 </div>
             </div>
         </div>

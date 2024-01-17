@@ -49,13 +49,3 @@ body, input, textarea, button {
     }
 
 }
-
-@media (max-width: 400px) {
-
-    body, html {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-}

@@ -14,8 +14,8 @@ export function App() {
       <section className={styles.section}>
         <Header />
       </section>
-      <div className={styles.rgbb}></div>
       <Main />
+      <div className={styles.espaco}></div>
       <Tokenomics />
       <SectionFour />
       <Footer />

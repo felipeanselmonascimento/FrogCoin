@@ -85,17 +85,20 @@
         font-size: 25px;
     }
     .para {
+        margin-top: 3rem;
         /* background-color: aqua; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 100%;
+        width: 100%;
     }
     
     .para p{
         font-family: 'Sedgwick Ave Display', cursive;
         font-size: 20px;
+        margin-top: 2rem;
     }
 
 }

@@ -1,5 +1,5 @@
 .div {
-    background-color:blueviolet;
+    background-image: linear-gradient(to left, #000000, #2b1a22, #4e2d45, #6e4470, #8660a3);
     padding: 30px;
     display: flex;
     justify-content: space-around;
@@ -24,7 +24,7 @@
 @media (max-width: 440px) {
 
     .div {
-        background-color:darkmagenta;
+        background-image: linear-gradient(to left, #000000, #2b1a22, #4e2d45, #6e4470, #8660a3); 
         padding: 30px;
         display: flex;
         justify-content: space-around;
