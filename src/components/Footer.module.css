@@ -20,3 +20,30 @@
 .coingecko img {
     width: 100%;
 }
+
+@media (max-width: 440px) {
+
+    .div {
+        background-color:darkmagenta;
+        padding: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .div img{
+        width: 100px;
+        height: 50px;
+    }
+    
+    .coingecko {
+        /* background-color: aqua; */
+        width: 100px;
+        height: 50px;
+    }
+    
+    .coingecko img {
+        width: 100%;
+    }
+   
+}

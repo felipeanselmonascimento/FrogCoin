@@ -17,10 +17,11 @@
     .section {
         width: 100%;
         position: relative;
+        /* background-color: aqua; */
         background-size:cover;
         background-position: center;
         background-repeat: no-repeat;   
-        height: 60rem;
+        height: 40rem;
     }
 }
 

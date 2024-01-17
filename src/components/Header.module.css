@@ -52,18 +52,16 @@
         top: 0;
         display: flex;
         justify-content: space-around;
-        /* background: var(--gray-100);  */
+        /* background-color: darkmagenta;  */
         padding: 1.25rem 0;
     }
 
     .logo {
-        position: relative;
-        left: 15px;
-        height: 50px;
+        display: none;
     }
 
     .icones1 {
-        width: 400px;
+        width: 90%;
         /* background-color: antiquewhite; */
         display: flex;
         justify-content: space-around; 
@@ -76,11 +74,11 @@
     }
 
     .icones2 {
-        width: 5rem;
+        width: 20%;
         /* background-color: antiquewhite; */
         display: flex;
-        gap: 5px;
-        justify-content:right; 
+        gap: 10px;
+        justify-content:center; 
         align-items: center;
     }
     
