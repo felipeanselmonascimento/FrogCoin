@@ -48,48 +48,55 @@
     font-size: 2.5rem;
 }
 
-/* @media (max-width: 440px) {
+@media (max-width: 440px) {
 
     .div {
-        padding-top: 50px;
-        height: 400px;
-        background-color: white;
+        /* margin: 10rem; */
+        position: relative;
+        background-color: transparent;
+        height: 67rem;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         align-items: center;
+     }
+  
+     .div img {
+        width: 300px;
+        height: 100px;
+     }
+
+     .div h1 {
+        margin-top: 10px;
+        border-radius: 10px;    
+        font-size: 30px;
+        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        margin-top: 1rem;
+     }
+  
+    
+  
+     .div p {
+        width: 20rem;
+        text-align: center; 
+        margin-top: 4rem;
+        font-size: 20px;
+     }
+  
+     .tokenon p{
+        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        margin-top: 1rem;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 5rem;
+        height: 5rem;
+        font-size: 0.7rem;
     }
 
     
-    .toke {
-        height: 50px; 
-    }
-
-    .quadro {
-        height: 170px;
-    }
-}
-
-@media (max-width: 400px) {
-
-    .div {
-        padding-top: 50px;
-        height: 400px;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-
     
-    .toke {
-        height: 50px; 
-    }
-
-    .quadro {
-        height: 170px;
-    }
 }
- */
+
+
 
