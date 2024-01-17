@@ -1,6 +1,9 @@
 import styles from './Main.module.css'
-import section2 from '../assets/section2first.svg'
-import section2c from '../assets/section2second.svg'
+import direita from '../assets/direita.png'
+import esquerda from '../assets/esquerda.png'
+import what from '../assets/what the.png'
+import hell from '../assets/hell.png'
+import going from '../assets/is going on.png'
 import AOS from 'aos'
 import { useEffect } from 'react'
 import 'aos/dist/aos.css'
@@ -13,27 +16,28 @@ export function Main() {
 
     return (
         <div className={styles.main}>
-            <img src={section2}
-            data-aos="fade-right" 
-            alt="carregando a moeda"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"/>
-            <img src={section2c}
-            data-aos="fade-left"
-            alt="contando a moeda"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"/>
+            <img src={esquerda} />
+            <img src={direita} />
             <div id='main' className={styles.divimg}>
-                <h1>Ready to</h1>
-                <h1>make history</h1>
-                <h1>with FrogCoin ?</h1>
+            <img src={what}
+                data-aos="fade-left"
+                alt="contando a moeda"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" />
+                <img src={hell}
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" />
+                <img src={going}
+                data-aos="fade-left"
+                alt="contando a moeda"
+                data-aos-offset="500"
+                data-aos-easing="ease-in-sine" />
                 <div className={styles.para}>
-                    <p>Ready to hop on board </p>
-                    <p>the FrogCoin revolution?</p> 
-                    <p>What unique leap does FrogCoin</p>
-                    <p>offer in the world of crypto</p> 
-                    <p>that has you excited to be a part</p> 
-                    <p>of this ribbiting journey?</p>
+                    <p>Where crypto meets Minion mayhem</p>
+                    <p>Hilarious NFTs, and themed events awaits.</p>
+                    <p>Join the yellow revolution</p>
+                    <p>where every $MNC is a smile! 😄🚀</p>
                 </div>
             </div>
         </div>

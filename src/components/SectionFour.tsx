@@ -1,7 +1,7 @@
 import styles from './SectionFour.module.css'
 import roadmap from '../assets/roadmap amarelo.png'
-import imgum from '../assets/img11.png'
-import imgdois from '../assets/img2.png'
+import initial from '../assets/numero2.png'
+import imgdois from '../assets/initail2.png'
 import imgtres from '../assets/img3.png'
 import AOS from 'aos'
 import { useEffect } from 'react'
@@ -21,7 +21,7 @@ export function SectionFour() {
             alt="roadmap"
             data-aos="zoom-out-down"
             />
-            <img src={imgum}
+            <img src={initial}
             className={styles.um}
             alt="img1" 
             data-aos="fade-up-left"

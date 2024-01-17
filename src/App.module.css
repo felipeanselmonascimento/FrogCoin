@@ -1,13 +1,15 @@
 .divglob {
+    position: relative;
     width: 100vw;
 }
 
 .section {
     width: 100%;
     position: relative;
-    background-image: url(./assets/frogcoin.jpg);
+    background-image: url(./assets/mainimg.jpg);
     background-size: cover;
-    height: 80rem;
+    background-position: center;
+    height: 50rem;
 }
 
 @media (max-width: 440px) {

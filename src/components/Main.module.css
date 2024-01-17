@@ -1,13 +1,24 @@
+/* .rgbb{
+    background-color: blueviolet;
+    position: absolute;
+    top: 100px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,33,66,1) 62%);
+    height: 10rem;
+    clip-path: polygon(0% 90%, 100% 0%, 100% 50%, 0% 100%);
+} */
+
+
 .main {
     position: relative;
-    background-color: white;
+    background-image: url(../assets/background.jpg);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    height: 60rem;
 }
 
 .main img {
-    height: 500px;
+    height: 400px;
     width: 400px;
 }
 
@@ -15,17 +26,16 @@
     /* background-color: aqua; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
 }
 
-.divimg h1 {
-    font-family: 'Sedgwick Ave Display', cursive;
-    padding-top: 1rem;
-    font-size: 3rem;
-    color: black;
+.divimg img {
+    margin-top: 2rem;
 }
 .para {
     /* background-color: aqua; */
@@ -39,7 +49,9 @@
 .para p{
     font-family: 'Sedgwick Ave Display', cursive;
     font-size: 2rem;
-    color: black
+    color: white;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    margin-top: 1rem;
 }
 
 @media (max-width: 440px) {
