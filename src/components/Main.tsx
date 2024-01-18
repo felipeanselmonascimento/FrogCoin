@@ -36,8 +36,9 @@ export function Main() {
                 <div className={styles.para}>
                     <p>Nothing, it's just when crypto meets</p>
                     <p>Minion mayhem. Hilarious NFTs,</p>
-                    <p>and themed events awaits. Join the yellow</p>
-                    <p>revolution where every $MNG is a smile!</p>
+                    <p>and themed events awaits.</p>
+                    <p>Join the yellow revolution</p>
+                    <p>where every $MNG is a smile!</p>
                 </div>
             </div>
         </div>
