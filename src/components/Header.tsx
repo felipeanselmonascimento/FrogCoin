@@ -40,7 +40,7 @@ export function Header() {
                 </a>
             </div>
             <div className={expanded ? styles.iconesres2 : styles.icones2}>
-                <a href="https://twitter.com">
+                <a href="https://twitter.com/MinionGrokk">
                     <img src={Xis} alt="icone tw" />
                 </a>
                 <a href="https://t.me/MinionGrok">
