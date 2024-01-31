@@ -1,5 +1,7 @@
 .divina {
-    background-image: url(../assets/background.jpg);
+    background-image: url(../assets/capa3.jpg);
+    background-size: 20%;
+    background-position: center;
     padding-top: 8rem;
     display: flex;
     flex-direction: column;
@@ -35,17 +37,17 @@
     }
     
     .um {
-        height: 180px;
+        height: 130px;
         margin-bottom: 50px;
     }
     
     .dois {
-        height: 180px;
+        height: 130px;
         margin-bottom: 50px;
     }
     
     .tres {
-        height: 180px;
+        height: 130px;
         margin-bottom: 50px;
     }
 }

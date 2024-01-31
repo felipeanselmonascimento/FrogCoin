@@ -29,7 +29,7 @@
 
 body, html {
     background: transparent;
-    color: var(--gray-300);
+    color: rgb(203, 30, 114);
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
 }

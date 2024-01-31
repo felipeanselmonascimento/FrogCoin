@@ -15,9 +15,9 @@ export function Tokenomics() {
                 className={styles.toke}
                 alt="toke amarelo"
                 data-aos="zoom-in" />
-            <h1>1,000,000,000 $MNG</h1>
+            <h1>1,000,000,000 $BJK</h1>
             <h1>TOTAL SUPPLY</h1>
-            <p>MinionGrok is designed to be a stable cryptocurrency that encourages long-term community participation. Its primary goal is to promote stability and sustainable growth by rewarding token holders who choose to keep their stakes for extended periods.</p>
+            <p>Our mission at Baby Joker is to redefine the boundaries of decentralized entertainment and finance, providing a dynamic platform that merges the thrill of gaming with the possibilities of blockchain technology.</p>
             <div className={styles.tokens}>
                 <div className={styles.tokenon}>
                     <p>BURNT 20%</p>
@@ -25,9 +25,9 @@ export function Tokenomics() {
                 <div className={styles.tokenon}>
                     <p>MARKETING 5%</p>
                 </div>
-                <div className={styles.tokenon}>
+                {/* <div className={styles.tokenon}>
                     <p>VESTED 8%</p>
-                </div>
+                </div> */}
                 <div className={styles.tokenon}>
                     <p>TAX 7/7</p>
                 </div>

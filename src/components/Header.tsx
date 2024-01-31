@@ -1,5 +1,5 @@
 import styles from './Header.module.css'
-import Logo from '../assets/minion.png'
+import Logo from '../assets/o brabo.png'
 import About from '../assets/about.png'
 import Tokenomics from '../assets/tokenomics.png'
 import Roadmap from '../assets/roadmap.png'
@@ -35,15 +35,15 @@ export function Header() {
                 <Link to="#secfour"> 
                     <img src={Roadmap} alt="Roadmap" />
                 </Link>
-                <a href="https://poocoin.app/tokens/0x05bec2256b6c2244b812c6323fbf8b9b8e33098f">
+                <a href="https://poocoin.app/">
                     <img src={Chart} alt="Chart" />
                 </a>
             </div>
             <div className={expanded ? styles.iconesres2 : styles.icones2}>
-                <a href="https://twitter.com/MinionGrokk">
+                <a href="https://twitter.com/">
                     <img src={Xis} alt="icone tw" />
                 </a>
-                <a href="https://t.me/MinionGrok">
+                <a href="">
                     <img src={Telegram} alt="icone telegram" />
                 </a>
             </div>
