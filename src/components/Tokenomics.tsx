@@ -15,7 +15,7 @@ export function Tokenomics() {
                 className={styles.toke}
                 alt="toke amarelo"
                 data-aos="zoom-in" />
-            <h1>1,000,000,000 $BJK</h1>
+            <h1>100,000,000 $BJK</h1>
             <h1>TOTAL SUPPLY</h1>
             <p>Our mission at Baby Joker is to redefine the boundaries of decentralized entertainment and finance, providing a dynamic platform that merges the thrill of gaming with the possibilities of blockchain technology.</p>
             <div className={styles.tokens}>
@@ -29,7 +29,7 @@ export function Tokenomics() {
                     <p>VESTED 8%</p>
                 </div> */}
                 <div className={styles.tokenon}>
-                    <p>TAX 7/7</p>
+                    <p>TAX 8/8</p>
                 </div>
             </div>
         </div>
